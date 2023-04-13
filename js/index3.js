@@ -31,8 +31,8 @@ const carregarCardAluno = () =>{
 
 }
 
-const mostrarNotasAluno = (aluno) =>{
-    const
-}
+// const mostrarNotasAluno = (aluno) =>{
+//     const
+// }
 
 carregarCardAluno()

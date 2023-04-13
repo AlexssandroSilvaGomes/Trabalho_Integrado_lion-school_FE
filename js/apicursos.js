@@ -1,7 +1,7 @@
 'use strict'
 
 export const getCursos = async() => {
-    const url = `http://localhost:8080/v1/lion-school/cursos`
+    const url = `http://lion-school-projeto-integrado.cyclic.app/v1/lion-school/cursos`
     const response = await fetch(url)
     const data = await response.json()
 
@@ -10,7 +10,7 @@ export const getCursos = async() => {
 }
 
 export const getAlunos = async() =>{
-    const url = `http://localhost:8080/v1/lion-school/alunos`
+    const url = `http://lion-school-projeto-integrado.cyclic.app/v1/lion-school/alunos`
     const response = await fetch(url)
     const data = await response.json()
 
@@ -18,7 +18,7 @@ export const getAlunos = async() =>{
 }
 
 export const getAlunosCurso = async() =>{
-    const url = `http://localhost:8080/v1/lion-school/alunos?curso=${curso}`
+    const url = `http://lion-school-projeto-integrado.cyclic.app/v1/lion-school/alunos?curso=${curso}`
     const response = await fetch(url)
     const data = await response.json()
 
@@ -26,7 +26,7 @@ export const getAlunosCurso = async() =>{
 }
 
 export const getAlunoInfo = async() =>{
-    const url = `http://localhost:8080/v1/lion-school/alunos/${aluno}`
+    const url = `http://lion-school-projeto-integrado.cyclic.app/v1/lion-school/alunos/${aluno}`
     const response = await fetch(url)
     const data = await response.json()
 

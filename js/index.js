@@ -11,7 +11,7 @@ const criarCardCursos = (curso) => {
 
     cardCursos.addEventListener('click', function(){
         localStorage.setItem('curso', nomeCurso.textContent)
-        window.location.href = 'http://127.0.0.1:5500/project-lion-school-FE/index2.html'
+        window.location.href = 'http://127.0.0.1:5500/index2.html'
     })
 
     const rowCards = document.createElement('div')
